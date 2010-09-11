@@ -1,0 +1,25 @@
+Server config:
+
+
+pear config-create $HOME .pearrc
+
+mkdir tmp
+cd tmp
+mkdir pear
+cd pear
+mkdir cache
+mkdir temp
+
+pear config-set download_dir /home/togethr/tmp/pear/cache
+pear config-set cache_dir /home/togethr/tmp/pear/cache
+pear config-set temp_dir /home/togethr//tmp/pear/temp
+
+vi ~/.bash_profile
+export PHP_PEAR_PHP_BIN=/usr/local/php5/bin/php
+export PATH=/home/username/.pear:/usr/local/php5/bin:$PATH
+
+
+ pear config-set auto_discover 1
+ pear install --installroot ~/.pear pear.firephp.org/FirePHPCore
+ 
+ pear install --installroot ~/.pear Benchmark
