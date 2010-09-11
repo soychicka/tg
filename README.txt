@@ -1,3 +1,6 @@
-http://www.luckymethod.com/staging/togethr_android/
+Team:  http://facebookgirlsintechdevgarage.pbworks.com/Find-friends-nearby-to-participate-in-activity-or-event
 
-http://www.luckymethod.com/staging/togethr_html/
+Mockups:
+
+web: http://www.luckymethod.com/staging/togethr_html/
+mobile: http://www.luckymethod.com/staging/togethr_android/
